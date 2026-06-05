@@ -28,20 +28,38 @@ a {
   border-top: 1px solid rgba(128, 128, 128, 0.3);
 }
 
-.cta__buttons button{
-    background-color: black;
-    color: white;
-    height: 30px;
-    width: 85px;
-    border-style: none;
-    font-weight: 600;
+.cta__buttons button {
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 85px;
+  border-style: none;
+  font-weight: 600;
 }
 .cta__buttons button:last-child {
-    background-color: white;
-    color: black;
-    margin-left: 20px;
+  background-color: white;
+  color: black;
+  margin-left: 20px;
 }
 
 .icon {
-    margin-right: 20px;
+  margin-right: 20px;
+}
+.Ad__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.Ad {
+  padding-bottom: 20px;
+  padding-inline: 150px;
+  background-color: rgba(128, 128, 128, 0.2);
+  border-block: 1px solid black;
+}
+
+.Ad__title {
+  color: #00000080;
+  text-align: end;
+  font: 14px monospace;
+  margin-block: 10px;
 }
