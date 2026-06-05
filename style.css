@@ -63,3 +63,8 @@ a {
   font: 14px monospace;
   margin-block: 10px;
 }
+
+.page-center {
+    max-width: 1240px;
+    margin-inline: auto;
+}
