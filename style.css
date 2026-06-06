@@ -98,7 +98,7 @@ h1 {
   flex: 1 1 30%;
 }
 .news-img img {
-  width: 100%;;
+  width: 100%;
 }
 .news-content {
   flex: 1 1 50%;
@@ -111,7 +111,29 @@ h1 {
 }
 .news-meta,
 .category {
-    font-weight: lighter;
-    font-size: 0.85em;
-    color: rgba(0, 0, 0, 0.5);;
+  font-weight: lighter;
+  font-size: 0.85em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.pagination {
+  justify-content: center;
+  gap: 5px;
+}
+
+.pagination__btn {
+  width: 58px;
+  height: 51px;
+  font-weight: 900;
+  border-style: none;
+  font-size: 16px;
+}
+
+.pagination span {
+  font-weight: 900;
+  font-size: 16px;
+}
+.pagination__btn:nth-child(2) {
+  background-color: black;
+  color: white;
 }
