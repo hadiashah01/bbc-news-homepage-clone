@@ -65,6 +65,9 @@ a {
 }
 
 .page-center {
-    max-width: 1240px;
-    margin-inline: auto;
+  max-width: 1240px;
+  margin-inline: auto;
+}
+.newsletter {
+  width: 300px;
 }
