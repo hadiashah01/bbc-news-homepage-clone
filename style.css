@@ -190,7 +190,7 @@ footer nav {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 60px;
 }
-h5 {
+.languages__heading {
   font-size: 1.5em;
   margin-bottom: 10px;
   font-family: "Times New Roman", Times, serif;
@@ -199,4 +199,26 @@ h5 {
   margin-block: 10px;
   font-size: 1em;
   font-family: "Times New Roman", Times, serif;
+}
+.footer__social-links {
+  justify-content: flex-start;
+  gap: 48px;
+  margin-block: 30px;
+}
+
+.social-links {
+  gap: 30px;
+}
+.footer__nav,
+.footer__copyright {
+  font-size: 0.8em;
+  margin-block: 20px;
+}
+
+.footer__copyright {
+  margin-bottom:50px ;
+}
+.footer__nav {
+  gap: 18px;
+  justify-content: flex-start;
 }
