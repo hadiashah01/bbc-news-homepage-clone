@@ -211,7 +211,7 @@ footer nav {
 }
 
 .footer__copyright {
-  margin-bottom:50px ;
+  margin-bottom: 50px;
 }
 .footer__nav {
   gap: 18px;
@@ -219,4 +219,23 @@ footer nav {
 }
 .seperator {
   margin-block: 20px;
+}
+.news-card-link:hover .title {
+  text-decoration: underline;
+}
+.footer__nav-list:hover .footer__nav-link {
+  text-decoration: underline;
+}
+.language {
+  text-decoration: underline;
+}
+.social-link-item {
+  padding: 5px;
+}
+.social-link:hover .social-link-item {
+  border: 1px solid black;
+}
+
+.footer__link:hover .footer__link-item {
+  text-decoration: underline;
 }
