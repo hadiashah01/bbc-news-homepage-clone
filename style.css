@@ -163,7 +163,7 @@ footer .logo {
 }
 
 footer nav {
-  margin-bottom: 30px ;
+  margin-bottom: 30px;
 }
 
 .languages__toggle {
@@ -171,4 +171,32 @@ footer nav {
   padding: 18px;
   background-color: rgba(0, 0, 0, 0.1);
   font-weight: 600;
+  margin-right: 1090px;
+  flex-wrap: nowrap;
+  min-width: 220px;
+}
+.language___links {
+  justify-content: flex-start;
+}
+.language___links li {
+  flex-basis: 250px;
+  font-size: 0.7em;
+  line-height: 1.75em;
+  padding-left: 100px;
+}
+.languages {
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 60px;
+}
+h5 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+.languages__para {
+  margin-block: 10px;
+  font-size: 1em;
+  font-family: "Times New Roman", Times, serif;
 }
