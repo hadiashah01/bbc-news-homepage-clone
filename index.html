@@ -58,18 +58,18 @@
       </div>
       <nav>
         <ul class="nav-bar flex">
-          <li class="nav-bar__link"><a href="#">Home </a></li>
-          <li class="nav-bar__link"><a href="#">News</a></li>
-          <li class="nav-bar__link"><a href="#">Sport</a></li>
-          <li class="nav-bar__link"><a href="#">Business</a></li>
-          <li class="nav-bar__link"><a href="#">Innovation</a></li>
-          <li class="nav-bar__link"><a href="#">Culture</a></li>
-          <li class="nav-bar__link"><a href="#">Arts</a></li>
-          <li class="nav-bar__link"><a href="#">Travel</a></li>
-          <li class="nav-bar__link"><a href="#">Earth</a></li>
-          <li class="nav-bar__link left seperator"><a href="#">Audio</a></li>
-          <li class="nav-bar__link"><a href="#">Video</a></li>
-          <li class="nav-bar__link"><a href="#">Live</a></li>
+          <li class="nav-bar__link"><a class="nav-bar__link-item" href="#">Home </a></li>
+          <li class="nav-bar__link"><a class="nav-bar__link-item" href="#">News</a></li>
+          <li class="nav-bar__link"><a class="nav-bar__link-item" href="#">Sport</a></li>
+          <li class="nav-bar__link"><a class="nav-bar__link-item" href="#">Business</a></li>
+          <li class="nav-bar__link"><a class="nav-bar__link-item" href="#">Innovation</a></li>
+          <li class="nav-bar__link"><a class="nav-bar__link-item" href="#">Culture</a></li>
+          <li class="nav-bar__link"><a class="nav-bar__link-item" href="#">Arts</a></li>
+          <li class="nav-bar__link"><a class="nav-bar__link-item" href="#">Travel</a></li>
+          <li class="nav-bar__link"><a class="nav-bar__link-item" href="#">Earth</a></li>
+          <li class="nav-bar__link"><a class="nav-bar__link-item left-seperator" href="#">Audio</a></li>
+          <li class="nav-bar__link"><a class="nav-bar__link-item" href="#">Video</a></li>
+          <li class="nav-bar__link"><a class="nav-bar__link-item" href="#">Live</a></li>
         </ul>
       </nav>
     </header>
@@ -285,18 +285,30 @@
         </article>
       </section>
       <nav class="pagination page-center flex">
-        <button class="pagination__btn">&lt;</button>
+        <button class="pagination__btn pagination__btn-inactive">&lt;</button>
 
-        <button class="pagination__btn">1</button
-        ><button class="pagination__btn">2</button
-        ><button class="pagination__btn">3</button
-        ><button class="pagination__btn">4</button>
-        <button class="pagination__btn">5</button>
+        <button class="pagination__btn">1</button>
+        <div class="paginator__wrapper">
+          <button class="pagination__btn">2</button>
+        </div>
+        <div class="paginator__wrapper">
+          <button class="pagination__btn">3</button>
+        </div>
+        <div class="paginator__wrapper">
+          <button class="pagination__btn">4</button>
+        </div>
+        <div class="paginator__wrapper">
+          <button class="pagination__btn">5</button>
+        </div>
 
         <span>...</span>
 
-        <button class="pagination__btn">130</button>
-        <button class="pagination__btn">&gt;</button>
+        <div class="paginator__wrapper">
+          <button class="pagination__btn">130</button>
+        </div>
+        <div class="paginator__wrapper">
+          <button class="pagination__btn">&gt;</button>
+        </div>
       </nav>
     </main>
     <footer>

@@ -32,12 +32,25 @@ a {
 }
 
 .nav-bar {
-  padding: 20px;
+  height: 35px;
+  align-items: stretch;
   justify-content: center;
-  gap: 20px;
   border-block: 1px solid rgba(128, 128, 128, 0.3);
 }
+.nav-bar__link-item {
+  padding: 10px;
+  font-size: 0.9em;
+  height: 800%;
+}
 
+.nav-bar__link {
+  display: flex;
+  height: 100%;
+}
+
+.left-seperator {
+  border-left: 1px solid rgba(128, 128, 128, 0.3);
+}
 .cta__buttons button {
   background-color: black;
   color: white;
@@ -238,4 +251,14 @@ footer nav {
 
 .footer__link:hover .footer__link-item {
   text-decoration: underline;
+}
+.paginator__wrapper:hover .pagination__btn {
+  background-color: rgb(79, 88, 88);
+  color: white;
+}
+.pagination__btn-inactive {
+  color: grey;
+}
+.nav-bar__link:hover .nav-bar__link-item {
+  background-color: #d1d4d6;
 }
