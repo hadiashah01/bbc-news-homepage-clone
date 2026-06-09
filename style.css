@@ -109,13 +109,16 @@ h1 {
   flex-wrap: nowrap;
   flex: 1 1 85%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+   gap: 15px;
 }
 .news-img {
   height: 200px;
+  
   margin-right: 80px;
 }
 .news-img img {
   height: 90%;
+  max-width: 300px;
 }
 .news-content {
   flex: 1 1 45%;

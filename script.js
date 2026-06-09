@@ -1,5 +1,6 @@
 let headline = document.querySelectorAll(".title");
 let description = document.querySelectorAll(".description");
+let img = document.querySelectorAll(".news-img");
 
 let fetchNews= async () => {
   let data = await fetch(
@@ -10,7 +11,11 @@ let fetchNews= async () => {
   for (let i = 0; i < headline.length; i++) {
       headline[i].textContent = newsData.articles[i].title;
       description[i].textContent = newsData.articles[i].description;
-  }
+      img[i].innerHTML=`<img
+                src="${newsData.articles[i].image}"
+                alt=""
+              />`
+    }
 };
 fetchNews();
 
