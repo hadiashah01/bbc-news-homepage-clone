@@ -1,4 +1,6 @@
 let headline = document.querySelectorAll(".title");
+let description = document.querySelectorAll(".description");
+
 let fetchNews= async () => {
   let data = await fetch(
     "https://gnews.io/api/v4/top-headlines?category=general&lang=en&country=us&max=10&apikey=d9b390844e791a0e5f31195889a6b00f",
@@ -6,8 +8,8 @@ let fetchNews= async () => {
   let newsData = await data.json();
   console.log(newsData);
   for (let i = 0; i < headline.length; i++) {
-    console.log(ntextContentewsData);
-    headline[i]. = newsData.articles[i].title;
+      headline[i].textContent = newsData.articles[i].title;
+      description[i].textContent = newsData.articles[i].description;
   }
 };
 fetchNews();
