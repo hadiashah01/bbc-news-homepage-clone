@@ -15,6 +15,11 @@ This project includes:
 - Interactive language toggle
 - Desktop-first design
 
+## Live Demo
+
+Click the preview image below to visit the live demo:
+
+[![BBC News Pakistan Live Webpage Preview](./images/bbc-news-homepage-clone.png)](https://hadiashah01.github.io/bbc-news-homepage-clone/)
 
 > [!NOTE]  
 > This project is intentionally designed as a desktop-focused clone. It does not include responsive breakpoints or mobile-specific layouts.
