@@ -56,6 +56,7 @@ This allows the page content to change automatically whenever new articles are r
 ├── style.css
 ├── script.js
 └── README.md
+└── images
 ```
 
 ## Features
