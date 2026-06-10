@@ -19,17 +19,11 @@ let fetchNews = async () => {
 };
 fetchNews();
 
+let button = document.querySelector(".languages__toggle");
 let languages = document.querySelector(".languages");
 function hideLanguages() {
   console.log("btn is clicked");
-  languages.style.display = "none";
+    languages.classList.toggle("hidden");
 }
 
-let button = document.querySelector(".languages__toggle");
 button.addEventListener("click", hideLanguages);
-function showLanguages() {
-  console.log("NOW btn is clicked twice");
-  languages.style.display = "flex";
-}
-
-button.addEventListener("dblclick", showLanguages);
