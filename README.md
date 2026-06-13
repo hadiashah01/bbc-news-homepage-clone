@@ -56,7 +56,7 @@ This allows the page content to change automatically whenever new articles are r
 ├── style.css
 ├── script.js
 └── README.md
-└── images
+└── images/
 ```
 
 ## Features
@@ -75,7 +75,7 @@ This allows the page content to change automatically whenever new articles are r
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/bbc-news-homepage-clone.git
+git clone https://github.com/hadiashah01/bbc-news-homepage-clone.git
 ```
 
 Navigate into the project folder:
@@ -85,6 +85,19 @@ cd bbc-news-homepage-clone
 ```
 
 Open index.html in any modern web browser.
+
+
+## Key Files
+
+- [HTML Structure](./index.html)
+- [CSS Styling](./style.css)
+- [JavaScript Logic](./script.js)
+
+## Relevant Links
+
+- [GNews API Documentation](https://gnews.io/docs)
+- [Pakistan - BBC News (layout and design inspiration)](https://www.bbc.com/news/topics/c008ql15vpyt)
+- [MDN Web Docs](https://developer.mozilla.org/)
 
 
 ## Disclaimer
